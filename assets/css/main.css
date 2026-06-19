@@ -4687,3 +4687,28 @@ input, select, textarea {
 		}
 
 	}
+
+@media screen and (max-width: 768px) {
+
+    .about-grid {
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+    }
+
+    .about-grid img {
+        width: 100% !important;
+        max-width: 320px !important;
+        height: auto !important;
+        margin: auto !important;
+        display: block !important;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 30px !important;
+    }
+}
